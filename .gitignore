@@ -1,0 +1,52 @@
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+# Thư mục môi trường ảo
+.venv/
+venv/
+env/
+
+# Files cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==============================================================================
+# Dữ liệu & Models (Rất quan trọng)
+# ==============================================================================
+# Bỏ qua toàn bộ thư mục dữ liệu lớn và được tạo ra tự động
+# Chúng ta chỉ nên commit dữ liệu thô hoặc đã xử lý rất nhỏ
+data/vector_store/
+data/raw_large_files/ # (Nếu có)
+
+# Bỏ qua các model đã được train, chúng nên được lưu trên Hub hoặc Drive
+src/chatbot/models/
+models/
+
+# Bỏ qua các kết quả training hoặc các file lớn khác
+results/
+
+# Bỏ qua kết quả của các script đánh giá
+tests/eval_results/
+
+# ==============================================================================
+# Notebooks & IDE specific
+# ==============================================================================
+# Files checkpoint của Jupyter Notebook
+.ipynb_checkpoints
+
+# Cấu hình của VS Code
+.vscode/
+
+# Cấu hình của PyCharm
+.idea/
+
+# ==============================================================================
+# Hệ điều hành & Files tạm thời
+# ==============================================================================
+# Files của macOS
+.DS_Store
+
+# Files của Windows
+Thumbs.db
