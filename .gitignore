@@ -50,3 +50,5 @@ tests/eval_results/
 
 # Files của Windows
 Thumbs.db
+
+data/processed/
